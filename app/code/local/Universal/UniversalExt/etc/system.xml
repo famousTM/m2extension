@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	  <tabs>
+		<universal translate="label" module="universalext">
+            <label>Universal</label>
+            <sort_order>0</sort_order>
+        </universal>
+	  </tabs>
+</config>
