@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<layout version="0.1.0">
-  <universalext_adminhtml_universalextbackend_index>
-	<reference name="content">
-	  <block type="universalext/adminhtml_universalextbackend" name="universalextbackend" template="universalext/universalextbackend.phtml"/>
-	</reference>
-  </universalext_adminhtml_universalextbackend_index>
-</layout>
