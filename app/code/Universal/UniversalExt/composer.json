@@ -6,11 +6,26 @@
         "magento/theme-frontend-luma": "100.2.*",
         "magento/framework": "101.0.*"
     },
-    "version": "1.0.0",
+    "type": "magento2-module",
+    "version": "1.1.1",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "authors": [
+      {
+        "name": "FamousTM",
+        "email": "ruben@famous.tm",
+        "homepage": "https://famous.tm",
+        "role": "Leader"
+      }
+    ],
     "autoload": {
-      "files": [ "registration.php" ],
+      "files": [
+        "registration.php"
+      ],
       "psr-4": {
-        "Magento\\CustomDeploymentConfigExample\\": ""
+        "Mageplaza\\Seo\\": ""
       }
     }
-  }
+}
