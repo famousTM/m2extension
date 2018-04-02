@@ -1,31 +1,28 @@
 {
-    "name": "universal/universalext",
-    "description": "N/A",
-    "require": {
-        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
-        "magento/theme-frontend-luma": "100.2.*",
-        "magento/framework": "101.0.*"
-    },
-    "type": "magento2-module",
-    "version": "1.1.1",
-    "license": [
-      "OSL-3.0",
-      "AFL-3.0"
-    ],
-    "authors": [
-      {
-        "name": "FamousTM",
-        "email": "ruben@famous.tm",
-        "homepage": "https://famous.tm",
-        "role": "Leader"
-      }
-    ],
-    "autoload": {
-      "files": [
-        "registration.php"
-      ],
-      "psr-4": {
-        "Universal\\UniversalExt\\": ""
+  "name": "universal/universalext",
+  "description": "A Magento 2 module that creates a new page",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "~100.0.4"
+  },
+  "authors": [
+    {
+      "name": "FamousTM",
+      "email": "ruben@famous.tm",
+      "homepage": "https://famous.tm",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Universal\\UniversalExt\\": ""
     }
   }
 }
